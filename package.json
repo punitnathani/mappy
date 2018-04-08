@@ -1,0 +1,22 @@
+{
+  "name": "mappy",
+  "version": "1.0.0",
+  "description": "Find directions through maps",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./app -a localhost -p 7478 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punitnathani/mappy.git"
+  },
+  "author": "Punit Nathani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punitnathani/mappy/issues"
+  },
+  "dependencies": {
+    "bower": "^1.8.2",
+    "http-server": "^0.11.1"
+  }
+}

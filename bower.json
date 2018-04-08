@@ -1,0 +1,22 @@
+{
+  "name": "mappy",
+  "description": "Find directions through maps",
+  "main": "index.js",
+  "authors": [
+    "Punit Nathani"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.2"
+  }
+}
