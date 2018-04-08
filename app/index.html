@@ -9,9 +9,19 @@
 
     <script src="lib/angular/angular.js"></script>
 
+    <!-- Mapbox library -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v3.1.1/mapbox-gl-directions.css' />
+
     <script src="app.js"></script>
+    <script src="js/utils/constants.js"></script>
+    <script src="js/views/mymap/mymapComponent.js"></script>
 </head>
+
 <body ng-app="mappy" ng-controller="AppController as AppCtrl">
-    
+    <ng-mapbox></ng-mapbox>
 </body>
+
 </html>
